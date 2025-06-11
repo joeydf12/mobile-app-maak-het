@@ -64,7 +64,7 @@ const Index = () => {
         {/* Get Started Button */}
         <div className="space-y-4 animate-slide-up" style={{ animationDelay: '400ms' }}>
           <Button 
-            onClick={() => navigate('/buddy-match')}
+            onClick={() => navigate('/questionnaire')}
             className="w-full bg-buddy-blue hover:bg-buddy-blue-dark text-white font-medium py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
           >
             Ga aan de slag

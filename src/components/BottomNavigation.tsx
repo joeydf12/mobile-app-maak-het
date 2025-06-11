@@ -11,7 +11,7 @@ export const BottomNavigation: React.FC = () => {
     { icon: Home, label: 'Home', path: '/buddy-match' },
     { icon: Users, label: 'Buddies', path: '/new-buddy' },
     { icon: MessageCircle, label: 'Messages', path: '/chat' },
-    { icon: User, label: 'Profile', path: '/check-in' },
+    { icon: User, label: 'Check-in', path: '/daily-check-in' },
     { icon: Settings, label: 'More', path: '/management' },
   ];
 

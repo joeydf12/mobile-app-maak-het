@@ -58,7 +58,7 @@ const NewBuddy = () => {
           </Button>
           
           <Button 
-            onClick={() => navigate('/check-in')}
+            onClick={() => navigate('/schedule-check-in')}
             variant="outline"
             className="w-full py-6 rounded-xl border-buddy-blue text-buddy-blue hover:bg-buddy-blue/5 flex items-center justify-center space-x-2"
           >
