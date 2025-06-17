@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, Bell, Bot, User } from 'lucide-react';
@@ -39,7 +38,7 @@ const ScheduleCheckIn = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background p-6">
+    <div className="min-h-screen bg-white p-6">
       <div className="max-w-md mx-auto space-y-6">
         {/* Header */}
         <div className="flex items-center space-x-4">

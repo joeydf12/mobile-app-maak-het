@@ -27,7 +27,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-buddy-blue/5 to-buddy-gray-light p-6 flex flex-col">
+    <div className="min-h-screen bg-white p-6 flex flex-col">
       <div className="flex-1 flex flex-col justify-center space-y-8 max-w-md mx-auto">
         {/* Header */}
         <div className="text-center space-y-4 animate-fade-in">
@@ -46,7 +46,7 @@ const Index = () => {
           <h2 className="text-xl font-semibold text-buddy-text-primary text-center">Voordelen</h2>
           <div className="space-y-3">
             {benefits.map((benefit, index) => (
-              <Card key={index} className="border-0 shadow-sm bg-white/80 backdrop-blur-sm animate-slide-up" style={{ animationDelay: `${index * 100}ms` }}>
+              <Card key={index} className="border-0 shadow-sm bg-white animate-slide-up" style={{ animationDelay: `${index * 100}ms` }}>
                 <CardContent className="flex items-start space-x-4 p-4">
                   <div className="bg-buddy-blue/10 p-2 rounded-lg">
                     <benefit.icon className="w-5 h-5 text-buddy-blue" />
