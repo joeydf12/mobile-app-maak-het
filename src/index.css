@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -101,7 +100,7 @@
   .mobile-safe-area {
     padding-bottom: env(safe-area-inset-bottom);
   }
-  
+
   .mobile-container {
     max-width: 100vw;
     overflow-x: hidden;
