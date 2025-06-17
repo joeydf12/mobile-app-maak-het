@@ -9,7 +9,7 @@
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Buddy Connect is een moderne mobiele applicatie gebouwd met een focus op verbinding en ondersteuning. Het platform is ontwikkeld met de nieuwste webtechnologieën om een snelle, responsieve en gebruiksvriendelijke ervaring te bieden.
+Buddy Connect is een moderne mobiele applicatie gebouwd met een focus op verbinding en ondersteuning. Het platform is ontwikkeld met de nieuwste webtechnologieën om een snelle, responsieve en gebruiksvriendelijke ervaring te bieden. Deze app is een prototype gemaakt om te testen met de gebruiker, vanwege validatie bij de gebruiker kwam ik erachter dat dit niet bij het project paste vandaar dat dit niet verder is ontwikkeld.
 
 ## 🛠️ Gebruikte Technologieën
 
