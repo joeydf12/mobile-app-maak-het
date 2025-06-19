@@ -135,3 +135,34 @@ Belangrijke configuratiebestanden in dit project:
 -   `tsconfig.json`, `tsconfig.app.json`, `tsconfig.node.json`: TypeScript configuratiebestanden.
 -   `eslint.config.js`: Configuratie voor ESLint.
 -   `postcss.config.js`: Configuratie voor PostCSS.
+
+## Bijdragen
+We staan open voor bijdragen aan Buddy Connect! Hoewel dit project momenteel een prototype is en niet actief wordt doorontwikkeld, waarderen we alle inzichten of suggesties.
+
+Mocht je een bug vinden of een idee voor een functionaliteit hebben, neem dan gerust contact met mij op joeydefijter11@gmail.com.
+
+## Licentie
+Dit project is gelicentieerd onder de MIT-licentie.
+
+Het staat je vrij om deze software te gebruiken, te wijzigen en te verspreiden, op voorwaarde dat de originele copyright- en licentieaanduiding zijn opgenomen in alle kopieën of substantiële delen van de software.
+
+
+## Veelgestelde Vragen (FAQ)
+Hier zijn enkele veelgestelde vragen over Buddy Connect:
+
+#### V: Waarom is dit project niet verder ontwikkeld?
+A: Buddy Connect is ontwikkeld als een prototype voor gebruikerstesten. Op basis van gebruikersvalidatie werd vastgesteld dat het concept niet aansloot bij de bredere projectdoelen, wat leidde tot de beslissing om de ontwikkeling niet voort te zetten.
+
+#### V: Ik heb moeite met het installeren van de afhankelijkheden. Wat moet ik doen?
+A: Zorg ervoor dat je Node.js (versie 18 of hoger) en een pakketbeheerder (npm 9.0.0+ of Bun 1.0+) correct geïnstalleerd hebt. Probeer de cache van je pakketbeheerder te legen (npm cache clean --force of bun prune) en voer daarna npm install of bun install opnieuw uit.
+
+#### V: De applicatie laadt niet in mijn browser na het starten van de ontwikkelserver.
+A: Controleer je terminal voor het exacte poortnummer (meestal http://localhost:5173). Zorg er ook voor dat geen andere applicatie die poort gebruikt. Als het probleem aanhoudt, probeer dan je ontwikkelserver opnieuw op te starten.
+
+### Wijzigingslog (Changelog)
+Versie 0.1.0 - Initieel Prototype (Juni 2024)
+
+Initiële projectconfiguratie met React, TypeScript, Vite, Tailwind CSS en shadcn/ui.
+Basis UI en client-side routing geïmplementeerd.
+Initiële gebruikerstesten en validatie uitgevoerd.
+Besluit genomen om de ontwikkeling als prototype af te ronden.
